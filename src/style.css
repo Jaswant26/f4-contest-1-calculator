@@ -1,0 +1,91 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+#root {
+  width: 489px;
+  height: 473px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #fff;
+  box-shadow: -30px 20px 100px 10px rgba(251, 24, 78, 0.47);
+}
+.calculator-div {
+  width: 500px;
+  height: 200px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.calculator-div h1 {
+  color: #2b2b2b;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.input-div input {
+  width: 290px;
+  height: 50px;
+  flex-shrink: 0;
+  border: 2px solid #2b2b2b;
+  color: #2b2b2b;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 20px;
+}
+.buttons-div {
+  display: flex;
+  justify-content: space-between;
+  width: 290px;
+  margin-top: 30px;
+}
+button {
+  width: 61px;
+  height: 61px;
+  flex-shrink: 0;
+  background: #2b2b2b;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
+.error-div {
+  margin-top: 20px;
+  color: #fb184e;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.result {
+  color: #2b2b2b;
+  margin-top: 20px;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
